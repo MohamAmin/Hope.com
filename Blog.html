@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Camp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+      <a href="index.html"><img src="img/hope.png"></a>
+      <div class="nav-links" id="navLinks" >
+        <img class="close" src="img/close.png" onclick="hideMenu()" alt="close">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="OBJECTIVE.html">OBJECTIVE</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <img class="menu" src="img/men.png" onclick="ShowMenu()" alt="open menu">
+    </nav>
+    <h1>Our Certificate & online programs for 2022</h1>
+    </section>
+
+
+    <!--Blog page -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="img/hope 2.jpg">
+          <h2>Our Goals</h2>
+          <p>Hope Camp is a National programmes for Ismaili Muslim youth focused on service,
+            leadership development, cultural exchange. opportunities for youth to make friends from around the world,
+            engage in cultural exchange, learn new skills,
+            explore the AKDN, collaborate on creative projects, dialogue about current issues,
+            and build for the future.</p>
+
+
+            <div class="comment-box">
+              <h3>Leave a comment</h3>
+
+              <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="10" placeholder="Your comment">
+                </textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+              </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+          <h3>OBJECTIVES</h3>
+          <div>
+            <span>cultivate lifelong friendships</span>
+            <span></span>
+          </div>
+          <div>
+            <span>work with local communities</span>
+            <span></span>
+          </div>
+          <div>
+            <span>gain a deep understanding of development</span>
+            <span></span>
+          </div>
+          <div>
+            <span>experience the AKDN's work in action</span>
+            <span></span>
+          </div>
+          <div>
+            <span>explore arts and culture</span>
+            <span></span>
+          </div>
+          <div>
+            <span>broaden their perspectives </span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+   
+  
+
+
+    <!--footer-->
+
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>Follow us on social media to know more about us</p>
+         <div class="icons">
+        
+         </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!---------Javascript For Togle menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function ShowMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Camp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+      <a href="index.html"><img src="img/hope.png"></a>
+      <div class="nav-links" id="navLinks" >
+        <img class="close" src="img/close.png" onclick="hideMenu()" alt="close">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="OBJECTIVE.html">OBJECTIVE</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <img class="menu" src="img/men.png" onclick="ShowMenu()" alt="open menu">
+    </nav>
+    <h1>About Us</h1>
+    </section>
+
+
+    <!--about us content-->
+
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>participants will gain</h1>
+          <p>cultivate lifelong friendships with brothers and sisters from around the Country.
+            work with local community organisations on service learning projects.
+            gain a deep understanding of development.
+            experience the AKDN's work in action.
+            broaden their perspectives in thought-provoking and challenging courses.
+            explore arts and culture.
+            visit world heritage sites.
+            
+            </p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="img/hope 8 .jpg">
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!--footer-->
+
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>Follow us on social media to know more about us</p>
+         <div class="icons">
+        
+         </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!---------Javascript For Togle menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function ShowMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    
+</body>
+</html>
